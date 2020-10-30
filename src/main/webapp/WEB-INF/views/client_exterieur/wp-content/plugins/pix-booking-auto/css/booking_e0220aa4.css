@@ -1,0 +1,294 @@
+/*BOOKING*/
+
+.pix-input-time{
+    -webkit-appearance: none  !important;
+-webkit-border-radius: 0 !important;
+}
+
+.booking_form_title {
+    display: none;
+}
+
+#booking_car_form {
+    padding: 0;
+    margin: 0;
+}
+
+.booking_form {
+    background: #fff !important;
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
+    border: 1px solid #eee;
+    margin-top: 0;
+}
+
+.booking-auto-form label {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 5px;
+    color: inherit;
+    padding-left: 0 !important;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.notice-hide{
+    opacity: 0;
+}
+
+.booking-notice {
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+    background: rgba( 210, 88, 62, 0.8);
+    margin-top: 30px;
+    margin-bottom: -20px;
+    padding: 10px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 99999;
+    box-shadow: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.booking-notice + .booking-notice{
+    top: 43px;
+}
+
+.extra_service_title_item .extr-left {
+    float: left;
+    padding-right: 5%;
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.extra_service_title_item .extr-left input[type="checkbox"] {
+    margin-right: 3px;
+}
+
+.extra_service_title_item .extr-right {
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.extra_service_title_item {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 5px;
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px dotted #ddd;
+    margin: 0 1% 1% 0;
+    width: 48.5%;
+}
+
+.booking-auto-form button.submit {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #e9a31b;
+    padding: 15px;
+    border: 0;
+    border-radius: 0;
+    font-weight: 500;
+    margin-top: 30px;
+    float: right;
+}
+
+.extra_service_title {
+    font-size: 13px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.rb_field {
+    width: 24.5%;
+    padding-left: 0;
+    padding-right: 2%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#booking_car_info{
+    margin-bottom: 25px;
+}
+
+
+#booking_car_info .rb_field {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 2%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#booking_car_info  .extra_service_title_item{
+    margin: 0;
+    width: 100%;
+}
+
+.rb_field select {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #999;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    margin-bottom: 18px;
+    height: 43px;
+    border-radius: 0;
+}
+#booking_car_info .submit{
+ /*   position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0; */
+    width: 100%;
+}
+#booking_car_info .booking_form {
+   /* padding-top: 70px; */
+    background: #f7f7f7 !important;
+}
+
+#booking_car_info .car-details__price-inner {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+    background: #222;
+    padding: 10px;
+    margin: -40px -40px 0 -40px;
+    text-align: center;
+}
+#booking_car_info .booking-notice{
+    position: initial;
+}
+#booking_car_info .notice-hide{
+    display: none;
+}
+html .period_picker_box.visible {
+    z-index: 99993 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    
+    #booking_car_form{
+      display: block !important;
+      margin-bottom: 25px;
+    }
+    
+    
+    .car-booking-box{
+        display: none ;
+    }
+    
+    .booking-auto-form select {
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
+    html .rb_field,
+    .coupon .button {
+        width: 100% !important;
+        padding-bottom: 15px;
+        float: none !important
+    }
+    html .booking-auto-form button.submit {
+        margin-top: 25px;
+        float: none;
+        width: 100%;
+        padding: 15px;
+    }
+    .rb_field select {
+        margin-bottom: 0 !important;
+        padding: 0 10px;
+    }
+    html #single-pixad-booking-modal .modal-dialog {
+        width: auto !important;
+        margin: 10% auto;
+        display: inline-block;
+    }
+    html .booking_form {
+        min-width: auto;
+    }
+    html .extra_service_title_item {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+
+
+
+.period_picker_box .period_picker_days table td.calendar-cell_booked {
+    background: #d2583e;
+    color: #fff;
+}
+
+aside .period_picker_days table td,
+aside .period_picker_days table th {
+    border: 0;
+}
+
+.pixba-calendar__wrapper .period_picker_box .period_picker_days table td.calendar-cell_booked {
+    color: #fff;
+    background: #ddd !important;
+    border-radius: 0 !important;
+    cursor: default;
+}
+
+.period_picker_box .period_picker_days table table td.period_picker_gray_period {
+    color: #fff;
+    background: #ddd !important;
+    border-radius: 0 !important;
+    cursor: default;
+}
+
+.booking-auto-form .wrap_fields .rb_field:first-child{
+    padding-top: 40px;
+}
+
+#booking_car_info .car-details__price-inner{
+    position: relative;
+}
+
+.product-quantity{
+    max-width: 175px;
+}
+
+.booking-price-info {
+    font-size: 11px;
+    display: inline-block;
+    width: 100%;
+    font-weight: normal;
+    font-style: italic;
+    margin: 5px 0;
+    clear: both;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 6px;
+}
+
+.product-quantity  .booking-price-info {
+    border-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 5px;
+    margin: 0;
+}
+
+

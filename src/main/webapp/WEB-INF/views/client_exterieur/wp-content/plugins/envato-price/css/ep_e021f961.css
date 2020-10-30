@@ -1,0 +1,153 @@
+/* Promo set*/
+
+
+
+html body div .icon-setting-menu:hover, html body div .icon-setting-menu.is-open{
+    background-color: red !important;
+}
+
+
+html body div .icon-setting-menu:hover{
+    opacity: 0.7;
+}
+
+
+/*320 x 480 (iPhone)*/
+
+@media (max-width:480px) {
+    .promo-set {
+        display: none !important;
+    }
+}
+
+html .envato-promo-link:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #7cb442;
+    top: 0;
+    right: 0;
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.pulse {
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+
+.promo-set {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 0;
+    z-index: 99999;
+}
+
+.promo-set a {
+    color: #fff !important;
+}
+
+.promo-set a:hover {
+    box-shadow: 0px 0px 3px #000;
+    text-decoration: none;
+}
+
+html body .envato-promo-link {
+    background: #6f9a37 !important;
+    border-radius: 100px;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    display: none;
+    line-height: 56px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 23px;
+    opacity: 0.9;
+    position: relative;
+}
+
+.currency-promo {
+    position: relative;
+    font-size: 14px;
+    top: -10px;
+    left: -3px;
+    margin-left: -4px;
+}
+
+.envato-logo-small {
+    background: #222 url(../images/layer.png) center center no-repeat !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    top: 10px !important; 
+    right: -10px !important;
+}
+
+.envato-logo-small.is-open {
+    background: #222 url(../images/close.png) center center no-repeat !important;
+}
+
+.promo-set-icon {
+    background: #393939;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    padding: 13px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    top: 13px;
+    position: relative;
+    left: 10px;
+}
+
+html body .icon-setting-menu {
+    margin-right: 2px;
+}
+
+html body .icon-setting-menu:hover {
+    background-color: #222 !important;
+    cursor: pointer;
+}
+
+.promo-content .km-hover-image {
+    overflow: hidden;
+    max-height: 200px;
+}
+
+.promo-content .km-hover-image-info {
+    display: none !Important;
+}
+
+.promo-content .km-hover-image-container {
+    margin-bottom: 0 !important;
+}
+
+.promo-content .km-hover-image-container {
+    box-shadow: none !important;
+}
+
+.promo-content .km-hover-image-button {
+    font-size: 11px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-top: 2px !important;
+}
+
+.promo-content {
+    padding: 30px !important;
+}
+
+.promo-content .img-disabled {
+    display: none !important;
+}
