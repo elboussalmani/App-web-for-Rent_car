@@ -6,5 +6,5 @@ in this app i used :
 - css/bootsrap
 - js
 - language : java
-- Frameworl : spring
-- Frameworl : Hibernate for database
+- Framework : spring
+- JPA : Hibernate
